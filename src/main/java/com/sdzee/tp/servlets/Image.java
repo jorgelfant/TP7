@@ -19,27 +19,21 @@ public class Image extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         // Lecture du paramètre 'chemin' passé à la servlet via la déclaration dans le web.xml
-
         String chemin = this.getServletConfig().getInitParameter("chemin");
 
-
         // Récupération du chemin du fichier demandé au sein de l'URL de la requête
-
         String fichierRequis = request.getPathInfo();
 
-        /* Vérifie qu'un fichier a bien été fourni */
+        // Vérifie qu'un fichier a bien été fourni
         if (fichierRequis == null || "/".equals(fichierRequis)) {
 
             // Si non, alors on envoie une erreur 404, qui signifie que la ressource demandée n'existe pas
-
             response.sendError(HttpServletResponse.SC_NOT_FOUND);
             return;
         }
 
         // Décode le nom de fichier récupéré, susceptible de contenir des  espaces et autres caractères spéciaux, et
         //  prépare l'objet File
-
-
         fichierRequis = URLDecoder.decode(fichierRequis, "UTF-8");
         File fichier = new File(chemin, fichierRequis);
 
@@ -47,7 +41,6 @@ public class Image extends HttpServlet {
         if (!fichier.exists()) {
 
             // Si non, alors on envoie une erreur 404, qui signifie que la ressource demandée n'existe pas
-
             response.sendError(HttpServletResponse.SC_NOT_FOUND);
             return;
         }
@@ -56,7 +49,6 @@ public class Image extends HttpServlet {
         String type = getServletContext().getMimeType(fichier.getName());
 
         // Si le type de fichier est inconnu, alors on initialise un type par défaut
-
         if (type == null) {
             type = "application/octet-stream";
         }

@@ -60,6 +60,7 @@ public class CreationCommande extends HttpServlet {
 
             // Ensuite récupération de la map des commandes dans la session
             Map<String, Commande> commandes = (HashMap<String, Commande>) session.getAttribute(SESSION_COMMANDES);
+
             // Si aucune map n'existe, alors initialisation d'une nouvelle map
             if (commandes == null) {
                 commandes = new HashMap<String, Commande>();

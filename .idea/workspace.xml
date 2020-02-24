@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3af285c1-83c0-46ef-8440-aafb3738027f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__eu_medsea_mimeutil_mime_util_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TP7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/forms/CreationClientForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/forms/CreationClientForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/forms/CreationCommandeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/forms/CreationCommandeForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/sdzee/tp/forms/CreationCommandeForm.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/sdzee/tp/forms/CreationClientForm.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1YFPl78m1wVtirfGl335B1YpJ8b" />
@@ -90,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582535516378</updated>
-      <workItem from="1582535520440" duration="6821000" />
+      <workItem from="1582535520440" duration="7801000" />
     </task>
     <servers />
   </component>

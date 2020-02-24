@@ -179,7 +179,6 @@ public final class CreationClientForm {
                 Collection<?> mimeTypes = MimeUtil.getMimeTypes(contenuFichier);
 
                 // Si le fichier est bien une image, alors son en-tête MIME commence par la chaîne "image"
-
                 if (mimeTypes.toString().startsWith("image")) {
                     // Ecriture du fichier sur le disque
                     ecrireFichier(contenuFichier, nomFichier, chemin);
@@ -190,7 +189,6 @@ public final class CreationClientForm {
         } catch (IllegalStateException e) {
             // Exception retournée si la taille des données dépasse les limites définies dans la section
             // <multipart-config> de la déclaration de notre servlet d'upload dans le fichier web.xml
-
             e.printStackTrace();
             throw new FormValidationException("Le fichier envoyé ne doit pas dépasser 1Mo.");
         } catch (IOException e) {
