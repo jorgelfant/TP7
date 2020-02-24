@@ -2,32 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3af285c1-83c0-46ef-8440-aafb3738027f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_catalina_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_coyote_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jaspic_api_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jni_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_scan_9_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/forms/CreationClientForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/forms/CreationCommandeForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/forms/FormValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/servlets/CreationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/servlets/CreationCommande.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/servlets/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theorie.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/beans/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/beans/Commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/servlets/ListeClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/servlets/ListeCommandes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/servlets/SuppressionClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdzee/tp/servlets/SuppressionCommande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/afficherClient.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/afficherCommande.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/creerClient.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/creerCommande.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/listerCommandes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/inc/inc_client_form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/inc/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TP7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +49,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sdzee/tp/servlets" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jorge.carrillo\Desktop\New folder\JAVAEE_TPS\TP7\src\main\java\com\sdzee\tp\servlets" />
+      <recent name="C:\Users\jorge.carrillo\Desktop\New folder\JAVAEE_TPS\TP7\web\WEB-INF" />
+      <recent name="C:\Users\jorge.carrillo\Desktop\New folder\JAVAEE_TPS\TP7\web\inc" />
+      <recent name="C:\Users\jorge.carrillo\Desktop\New folder\JAVAEE_TPS\TP7\web" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
@@ -99,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582535516378</updated>
-      <workItem from="1582535520440" duration="4058000" />
+      <workItem from="1582535520440" duration="5345000" />
     </task>
     <servers />
   </component>
